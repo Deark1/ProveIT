@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mote</title>
+        
+    </head>
+    <section>
+        <article class="one">
+        <div>
+                <h1>Den nye dressen fra Dressus</h1>
+                <h2>Sitter som et skudd!</h2>
+            </div>
+        </article>
+        <article class="two">
+            <div>
+                <h1>Nye sko til julebordet</h1>
+                <h2>Lissene får du på kjøpet!</h2>
+            </div>
+        </article>
+        <article class="three">
+            <div>
+                <h1>Storbyferie i Milano</h1>
+                <h2>Vårens nyheter har ankommet!</h2>
+            </div>
+        </article>
+    </section>
+    <style>
+        section {
+            height: 68vh;
+            background-color: black;
+            display: flex;
+            font-family: sans-serif;
+        }
+
+        article {
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            padding: 1rem;
+            display: flex;
+            align-items: flex-end;
+            color: white;
+            font-size: 50%;
+            transition: 1s;
+        }
+
+        article:hover {
+            flex: 3;
+            font-size: 120%;
+        }
+
+        .one { background-image: url("bilder/blader.jpg"); }
+        .two { background-image: url("bilder/blomst.jpg"); }
+        .three { background-image: url("bilder/fugl.jpg");}
+</html>
